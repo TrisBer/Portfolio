@@ -1,0 +1,60 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que le footer est au-dessus des autres éléments si nécessaire */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* Assure que le texte est centré */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pour s'assurer que le contenu ne soit pas masqué par le footer */
+  body {
+    margin: 0;
+    padding-bottom: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre footer */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1; /* Assure que le contenu principal prend toute la hauteur disponible */
+  }
+  

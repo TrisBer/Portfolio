@@ -1,0 +1,39 @@
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .about-me-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-me-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-me-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
