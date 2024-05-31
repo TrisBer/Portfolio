@@ -14,7 +14,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="about-me-image">
-        <img src="[URL de votre image]" alt="Votre Nom" />
+        <div className='photo-de-moi'><img src='mon-portfolio\src\assets\photo-moi.webp' alt='photo me représentant'/></div>
         <div className="social-links">
           <a href="https://twitter.com/NaruLive_" target="_blank" rel="noopener noreferrer">Twitter</a>
           <a href="https://www.linkedin.com/in/tristan-b-385235266/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
