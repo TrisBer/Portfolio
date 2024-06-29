@@ -1,39 +1,61 @@
 .about-me {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .about-me-text {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .about-me-image {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .about-me-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .social-links {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .social-links a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2em;
-  }
-  
-  .social-links a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about-me-text {
+  flex: 1;
+  margin-right: 20px;
+  min-width: 300px; /* Ajuster la taille minimale si nécessaire */
+}
+
+.about-me-text p {
+  font-size: 1.2em; /* Ajustez cette valeur selon vos besoins */
+  line-height: 1.5; /* Ajustez la hauteur de ligne pour améliorer la lisibilité */
+}
+
+.about-me-image {
+  flex: 1;
+  text-align: center;
+  min-width: 300px; /* Ajuster la taille minimale si nécessaire */
+}
+
+.about-me-image img {
+  width: 250px; /* Taille fixe pour le cercle */
+  height: 250px; /* Même valeur pour hauteur et largeur pour rendre le cercle parfait */
+  border-radius: 50%;
+  object-fit: cover; /* Assure que l'image s'ajuste bien dans le cercle */
+}
+
+.social-links {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+a {
+  display: inline-flex; /* Afficher le lien et le SVG en ligne */
+  align-items: center; /* Centrer verticalement */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  color: #333; /* Couleur du texte du lien */
+}
+
+svg {
+  width: 20px; /* Ajuster la taille du SVG */
+  height: 20px;
+  margin-right: 5px; /* Marge à droite du SVG pour l'espace */
+  margin-left: 2px;
+}

@@ -1,0 +1,38 @@
+/* Languages.css */
+
+.languages {
+    padding: 20px;
+  }
+  
+  .language-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 70px;
+  }
+  
+  .language-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .language-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .language-logo {
+    width: 100px; /* Ajustez la taille de l'image si nécessaire */
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .language-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
