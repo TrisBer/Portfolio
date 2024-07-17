@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .about-me-text {
@@ -58,4 +58,14 @@ svg {
   height: 20px;
   margin-right: 5px; /* Marge à droite du SVG pour l'espace */
   margin-left: 2px;
+}
+
+@media (max-width: 720px){
+  .about-me-image img {
+    width: 250px; /* Taille fixe pour le cercle */
+    height: 250px; /* Même valeur pour hauteur et largeur pour rendre le cercle parfait */
+    border-radius: 50%;
+    object-fit: cover; /* Assure que l'image s'ajuste bien dans le cercle */
+    padding-top: 20px;
+  }
 }

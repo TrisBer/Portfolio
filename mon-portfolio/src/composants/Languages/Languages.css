@@ -1,5 +1,3 @@
-/* Languages.css */
-
 .languages {
     padding: 20px;
   }
@@ -26,7 +24,7 @@
   }
   
   .language-logo {
-    width: 100px; /* Ajustez la taille de l'image si nécessaire */
+    width: 100px; 
     height: auto;
   }
   

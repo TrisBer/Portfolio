@@ -20,11 +20,48 @@
 }
 
 .languages {
-  padding: 50px;
+  padding: 20px;
   border-radius: 8px;
 }
 
 .projects {
-  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   border-radius: 8px;
+}
+
+@media (max-width: 1200px){
+  .main-content > * {
+    width: 100%; /* Assurez-vous que chaque section occupe toute la largeur */
+
+  }
+  
+  .about-me, .languages, .projects {
+    width: 80%; /* Réduire la largeur des sections pour un meilleur alignement centré */
+    max-width: 800px; /* Limite maximale pour la largeur */
+  }
+}
+
+@media (max-width: 720px){
+  .main-content > * {
+    width: 100%; /* Assurez-vous que chaque section occupe toute la largeur */
+    
+  }
+  
+  .about-me, .languages, .projects {
+    width: 80%; /* Réduire la largeur des sections pour un meilleur alignement centré */
+    max-width: 500px; /* Limite maximale pour la largeur */
+  }
+}
+
+@media (max-width: 412px){
+  .main-content > * {
+    width: 100%; /* Assurez-vous que chaque section occupe toute la largeur */
+    
+  }
+  
+  .about-me, .languages, .projects {
+    width: 80%; /* Réduire la largeur des sections pour un meilleur alignement centré */
+    max-width: 500px; /* Limite maximale pour la largeur */
+  }
 }

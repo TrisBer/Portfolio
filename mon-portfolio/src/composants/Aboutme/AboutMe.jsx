@@ -1,5 +1,4 @@
 /* eslint-disable */
-import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons'
 import './AboutMe.css';
 
 import photoMoi from '../../images/photo-moi.webp';
