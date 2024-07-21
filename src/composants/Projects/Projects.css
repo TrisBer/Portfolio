@@ -10,7 +10,7 @@
   
   .project-item {
     flex: 1 1 calc(33.333% - 40px);
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     margin-top: 15px;
     padding: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);

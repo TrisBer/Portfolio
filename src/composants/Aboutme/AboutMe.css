@@ -12,7 +12,7 @@
 }
 
 .about-me-text p {
-  font-size: 1.2em; /* Ajustez cette valeur selon vos besoins */
+  font-size: 1.1em; /* Ajustez cette valeur selon vos besoins */
   line-height: 1.5; /* Ajustez la hauteur de ligne pour améliorer la lisibilité */
 }
 
@@ -30,14 +30,14 @@
 }
 
 .social-links {
-  margin-top: 25px;
+  margin-top: 53px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
 .social-links a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -50,7 +50,7 @@ a {
   display: inline-flex; /* Afficher le lien et le SVG en ligne */
   align-items: center; /* Centrer verticalement */
   text-decoration: none; /* Supprimer le soulignement du lien */
-  color: #333; /* Couleur du texte du lien */
+  color: rgba(255, 255, 255, 0.87); /* Couleur du texte du lien */
 }
 
 svg {

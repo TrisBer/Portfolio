@@ -6,6 +6,7 @@ import reactLogo from '../../images/react.png';
 import html_5 from '../../images/html-5.png';
 import css_3 from '../../images/css-3.png';
 import nodejsLogo from '../../images/nodejs.png';
+import sass from '../../images/sass.png';
 
 const Languages = () => {
   const languages = [
@@ -14,6 +15,7 @@ const Languages = () => {
     { id: 3, name: 'Html-5', imgSrc: html_5 },
     { id: 4, name: 'Css-3', imgSrc: css_3 },
     { id: 5, name: 'Node.js', imgSrc: nodejsLogo },
+    { id: 6, name: 'sass', imgSrc: sass },
   ];
 
   return (

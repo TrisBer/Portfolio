@@ -2,14 +2,14 @@
   padding: 50px 20px;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 30px; /* Espace au-dessus de la section contact */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  margin-bottom: 30px; /* Espace au-dessus de la section contact */
 }
 
 .contact h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .contact-form {
@@ -26,7 +26,7 @@
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .form-group input,
